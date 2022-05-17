@@ -11,4 +11,5 @@ const {
 router.route("/").get(getArticles).post(createArticle);
 router.route("/:id").get(getArticle).put(updateArticle).delete(deleteArticle);
 
+
 module.exports = router;
